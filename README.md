@@ -1,8 +1,10 @@
 # Documentation of my api
 my json format is
-*{name:String,roll:Number} example {"name":"Abdur Rahim",roll:41}
+
+{name:String,roll:Number} example {"name":"Abdur Rahim",roll:41}
 
 1)`GET` `https://abirsrestfullapi.herokuapp.com/notes` to see all content of saved app
+
 2)`GET` `https://abirsrestfullapi.herokuapp.com/notes/noteId` to the content of the ID
 example{<br>
   to see <br>
